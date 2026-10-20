@@ -1,0 +1,17 @@
+VISIO AI — DETECTOR FACIAL
+
+INSTALAÇÃO:
+1. Extraia todos os arquivos para uma pasta, por exemplo: Área de Trabalho\IA_Rostos.
+2. Dê dois cliques em INICIAR.bat.
+3. Na primeira execução, é necessária internet para instalar as bibliotecas.
+4. O navegador abrirá o painel em http://127.0.0.1:5000.
+5. Clique em "Iniciar câmera" e permita o acesso à webcam.
+6. Para fechar, feche a aba e pressione Ctrl+C na janela preta do servidor.
+
+REQUISITOS:
+- Windows 10/11
+- Python 3 instalado (python.org)
+- Webcam e navegador moderno
+
+SOBRE:
+A interface usa Flask e OpenCV 4.11 fixado para evitar incompatibilidade com builds recentes. O detector Haar é pré-treinado e identifica a presença/localização provável de rostos. Não identifica nomes nem quem é a pessoa e não é um modelo treinado do zero pelo usuário. O vídeo é processado pelo servidor local do próprio computador; não é enviado a um serviço externo pelo aplicativo.
